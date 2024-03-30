@@ -1,0 +1,158 @@
+---
+# Semantic Type
+- name: type/major
+  color: "#f6412d"
+- name: type/minor
+  color: "#ff9800"
+- name: type/patch
+  color: "#ffec19"
+- name: type/digest
+  color: "#ffec00"
+
+# Uncategorized
+- name: chore
+  color: "#E6CF9D"
+  description: Work towards tech-debt
+- name: bug
+  color: "#ee0701"
+  description: Something isn't working
+- name: do-not-merge
+  color: "#ee0701"
+- name: link-checker
+  color: "#7B55D7"
+- name: documentation
+  color: "#0075ca"
+  description: Improvements or additions to documentation
+- name: duplicate
+  color: "#cfd3d7"
+  description: This issue or pull request already exists
+- name: enhancement
+  color: "#a2eeef"
+  description: New feature or request
+- name: good first issue
+  color: "#7057ff"
+  description: Good for newcomers
+- name: help wanted
+  color: "#008672"
+  description: Extra attention is needed
+- name: invalid
+  color: "#e4e669"
+  description: This doesn't seem right
+- name: pipeline
+  color: "#79D905"
+  description: Issue with CI/CD pipeline or workflow
+- name: question
+  color: "#d876e3"
+  description: Further information is requested
+- name: security
+  color: "#006B75"
+  description: Security Issue
+- name: triage
+  color: "#D93F0B"
+  description: Issue requires assessment
+- name: triaged
+  color: "#c2e0c6"
+  description: Issue has been triaged
+- name: wontfix
+  color: "#ffffff"
+  description: This will not be worked on
+- name: blocked
+  color: "#cc3300"
+  description: blocked by another issue
+- name: hold
+  color: "#ee0701"
+
+- name: flux/upgrade
+  color: "#ededed"
+
+# Renovate
+- name: renovate/ansible
+  color: "#027fa0"
+- name: renovate/container
+  color: "#027fa0"
+- name: renovate/github-action
+  color: "#027fa0"
+- name: renovate/github-release
+  color: "#027fa0"
+- name: renovate/helm
+  color: "#027fa0"
+- name: renovate/terraform
+  color: "#027fa0"
+- name: renovate/annotations
+  color: "#027fa0"
+- name: renovate/go
+  color: "#027fa0"
+- name: renovate/grafana-dashboard
+  color: "#027fa0"
+
+# Language
+- name: language/go
+  color: "#00ADD8"
+
+# Area
+- name: area/local
+  color: "#0e8a16"
+  description: >-
+    Changes made in local tooling related files (e.g. .vscode)
+- name: area/ci
+  color: "#0e8a16"
+  description: >-
+    Changes made in pipeline related files
+- name: area/app
+  color: "#0e8a16"
+  description: >-
+    Changes made in the core app code
+- name: area/ansible
+  color: "#0e8a16"
+  description: >-
+    Changes made in the ansible directory
+- name: area/github
+  color: "#0e8a16"
+  description: >-
+    Changes made in the github directory
+- name: area/kubernetes
+  color: "#0e8a16"
+  description: >-
+    Changes made in the kubernetes/cluster directory
+- name: area/hack
+  color: "#0e8a16"
+  description: >-
+    Changes made in the hack directory
+- name: area/terraform
+  color: "#0e8a16"
+  description: >-
+    Changes made in the terraform directory
+- name: area/docs
+  color: "#0e8a16"
+  description: >-
+    Changes made in the docs directory
+- name: area/taskfile
+  color: "#0e8a16"
+  description: >-
+    Changes made in the taskfile directory
+
+# Size
+- name: size/XS
+  color: "#009900"
+  description: >-
+    Denotes a PR that changes 0-9 lines, ignoring generated files.
+- name: size/S
+  color: "#77bb00"
+  description: >-
+    Denotes a PR that changes 10-29 lines, ignoring generated files.
+- name: size/M
+  color: "#eebb00"
+  description: >-
+    Denotes a PR that changes 30-99 lines, ignoring generated files.
+- name: size/L
+  color: "#ee9900"
+  description: >-
+    Denotes a PR that changes 100-499 lines, ignoring generated files.
+- name: size/XL
+  color: "#ee5500"
+  description: >-
+    Denotes a PR that changes 500-999 lines, ignoring generated files.
+- name: size/XXL
+  color: "#ee0000"
+  description: >-
+    Denotes a PR that changes 1000+ lines, ignoring generated files.
